@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./cart.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Boxes</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Text Heading -->
+    <div class="main_text_box">
+      <div class="main_line"></div>
+      <div class="main_heading">YAY! It's BOGO</div>
+      <div class="main_line"></div>
+    </div>
+    <!-- end -->
+
+    <!-- Box-1 -->
+
+    <div class="box" id="topBox" onclick="expandOptions('topBox')">
+      <div class="details">
+        <div class="box_detail-1">
+          <div class="box_detail_left">
+            <div>
+              <input type="radio">
+            </div>
+            <div class="box_detail_left_box_1">
+              <div class="box_detail_left_subbox">
+                <div><b>1 Unit</b></div>
+                <div class="discount">10% Off</div>
+              </div>
+              <div>Standard Price</div>
+            </div>
+          </div>
+          <div>
+            <p><b>$10.00 USD</b></p>
+            <h5 class="old_price">$24.00USD</h5>
+          </div>
+        </div>
+
+      </div>
+      <div class="options" style="display: none;">
+        <div class="select_box_label">
+          <label for="size">Size</label>
+          <label for="color">Colour</label>
+
+        </div>
+        <div style="margin-left: 3rem;">
+          <div>
+            #1
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div>
+            #2
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Box-2 -->
+
+    <div class="box" id="middleBox" onclick="expandOptions('middleBox')">
+      <div class="populer_box">
+        <div class="populer_background"></div>
+        <div class="populer_text">Most Populer</div>
+      </div>
+
+      <div class="box_detail-1">
+        <div class="box_detail_left">
+          <div>
+            <input type="radio" />
+          </div>
+          <div class="box_detail_left_box_1">
+            <div class="box_detail_left_subbox">
+              <div><b>2 Unit</b></div>
+              <div class="discount">20% Off</div>
+            </div>
+            <!-- <div>Standard Price</div> -->
+          </div>
+        </div>
+        <div>
+          <p><b>$18.00 USD</b></p>
+          <h5 class="old_price">$24.00USD</h5>
+        </div>
+      </div>
+      <div class="options" style="display: none;">
+        <div class="select_box_label">
+          <label for="size">Size</label>
+          <label for="color">Colour</label>
+
+        </div>
+        <div style="margin-left: 3rem;">
+          <div>
+            #1
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div>
+            #2
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Box-3 -->
+
+    <div class="box" id="bottomBox" onclick="expandOptions('bottomBox')">
+      <div class="box_detail-1">
+        <div class="box_detail_left">
+          <div>
+            <input type="radio" />
+          </div>
+          <div class="box_detail_left_box_1">
+            <div class="box_detail_left_subbox">
+              <div><b>3 Unit</b></div>
+              <div class="discount">30% Off</div>
+            </div>
+
+          </div>
+        </div>
+        <div>
+          <p><b>$24.00 USD</b></p>
+          <h5 class="old_price">$24.00USD</h5>
+        </div>
+      </div>
+      <div class="options" style="display: none;">
+        <div class="select_box_label">
+          <label for="size">Size</label>
+          <label for="color">Colour</label>
+
+        </div>
+        <div style="margin-left: 3rem;">
+          <div>
+            #1
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div>
+            #2
+            <select class="select_box" id="size">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="select_box" id="color">
+              <option>Black</option>
+              <option>Green</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- end -->
+
+    <!-- Total -->
+
+    <div class="total">
+      <div class="free_delivery">Free Delivery</div>
+      <div><b>Total: $18.00 USD</b></div>
+    </div>
+    
+    <!-- Button -->
+    <button class="add_to_cart">+ Add to Cart</button>
+    <div class="powered_by">@ Powered by Pumper</div>
+</body>
+
+<script src="cart.js"></script>
+
+</html>
